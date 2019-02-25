@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		31F937BC2223C29900CEEFE6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F937BB2223C29900CEEFE6 /* main.swift */; };
+		31F937C72223C38900CEEFE6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F937C62223C38900CEEFE6 /* User.swift */; };
+		31F937C92223C3D500CEEFE6 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F937C82223C3D500CEEFE6 /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		31F937B82223C29900CEEFE6 /* GithubSearchRepository */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GithubSearchRepository; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F937BB2223C29900CEEFE6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		31F937C62223C38900CEEFE6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		31F937C82223C3D500CEEFE6 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,35 @@
 		31F937BA2223C29900CEEFE6 /* GithubSearchRepository */ = {
 			isa = PBXGroup;
 			children = (
+				31F937C52223C2FC00CEEFE6 /* Error */,
+				31F937C42223C2F500CEEFE6 /* Response */,
+				31F937C32223C2EA00CEEFE6 /* Request */,
 				31F937BB2223C29900CEEFE6 /* main.swift */,
 			);
 			path = GithubSearchRepository;
+			sourceTree = "<group>";
+		};
+		31F937C32223C2EA00CEEFE6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		31F937C42223C2F500CEEFE6 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				31F937C62223C38900CEEFE6 /* User.swift */,
+				31F937C82223C3D500CEEFE6 /* Repository.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		31F937C52223C2FC00CEEFE6 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F937C72223C38900CEEFE6 /* User.swift in Sources */,
 				31F937BC2223C29900CEEFE6 /* main.swift in Sources */,
+				31F937C92223C3D500CEEFE6 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
